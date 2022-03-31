@@ -14,6 +14,9 @@ struct WelcomeView: View {
                 Color("BgColor").edgesIgnoringSafeArea(.all)
                 VStack {
                     Spacer()
+                    Text("Mountain")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
                     Image(uiImage: #imageLiteral(resourceName: "onboardingImage"))
                         .resizable()
                         .frame(width: 300, height: 300)
