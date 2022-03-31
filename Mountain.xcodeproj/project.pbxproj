@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5B123527F5713500DCBCBE /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B123427F5713500DCBCBE /* WelcomeView.swift */; };
+		5C5B123727F5754C00DCBCBE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B123627F5754C00DCBCBE /* SignUpView.swift */; };
+		5C5B123927F57EA200DCBCBE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B123827F57EA200DCBCBE /* SignInView.swift */; };
 		5CBF668E27EAAC85006EB6BA /* MountainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF668D27EAAC85006EB6BA /* MountainApp.swift */; };
 		5CBF669027EAAC85006EB6BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF668F27EAAC85006EB6BA /* ContentView.swift */; };
 		5CBF669227EAAC88006EB6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBF669127EAAC88006EB6BA /* Assets.xcassets */; };
 		5CBF669527EAAC88006EB6BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBF669427EAAC88006EB6BA /* Preview Assets.xcassets */; };
 		5CBF669E27EADD29006EB6BA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF669D27EADD29006EB6BA /* NetworkManager.swift */; };
-		5CBF66A027EAE262006EB6BA /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF669F27EAE262006EB6BA /* SignUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5B123427F5713500DCBCBE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5C5B123627F5754C00DCBCBE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5C5B123827F57EA200DCBCBE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		5CBF668A27EAAC85006EB6BA /* Mountain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mountain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBF668D27EAAC85006EB6BA /* MountainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainApp.swift; sourceTree = "<group>"; };
 		5CBF668F27EAAC85006EB6BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5CBF669127EAAC88006EB6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CBF669427EAAC88006EB6BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CBF669D27EADD29006EB6BA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		5CBF669F27EAE262006EB6BA /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +80,9 @@
 		5CBF669B27EADD0C006EB6BA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5CBF669F27EAE262006EB6BA /* SignUp.swift */,
+				5C5B123427F5713500DCBCBE /* WelcomeView.swift */,
+				5C5B123627F5754C00DCBCBE /* SignUpView.swift */,
+				5C5B123827F57EA200DCBCBE /* SignInView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,10 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5B123927F57EA200DCBCBE /* SignInView.swift in Sources */,
 				5CBF669E27EADD29006EB6BA /* NetworkManager.swift in Sources */,
-				5CBF66A027EAE262006EB6BA /* SignUp.swift in Sources */,
+				5C5B123727F5754C00DCBCBE /* SignUpView.swift in Sources */,
 				5CBF669027EAAC85006EB6BA /* ContentView.swift in Sources */,
 				5CBF668E27EAAC85006EB6BA /* MountainApp.swift in Sources */,
+				5C5B123527F5713500DCBCBE /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
